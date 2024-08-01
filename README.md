@@ -30,7 +30,5 @@ The Financial Data Analysis Dashboard is a web application designed to visualize
 
 <h2>Project Screenshot:</h2>
 
-![Dash](https://github.com/user-attachments/assets/0647f3d7-83d6-427b-89b4-85b300755617)</br>
-![Dash2](https://github.com/user-attachments/assets/96f0d6c1-0b43-4bba-9aff-793d7da70003)
-
-
+![Dash2](https://github.com/user-attachments/assets/96f0d6c1-0b43-4bba-9aff-793d7da70003)</br>
+![Dash](https://github.com/user-attachments/assets/0647f3d7-83d6-427b-89b4-85b300755617)
