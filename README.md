@@ -15,30 +15,10 @@ The Financial Data Analysis Dashboard is a web application designed to visualize
 * Educational Tool: Useful for students and educators in finance to understand data visualization and financial analysis.
 
 <h2>How it works</h2>
-<h3>1.  Data Loading:</h3>
-The project includes a 'data_processing.py' script that handles loading and preprocessing the financial data from a CSV file.</br>
-```py
-import pandas as pd
-def load_data(filepath):
-    data = pd.read_csv(filepath)
-    data['date'] = pd.to_datetime(data['date'])  # Convert date column to datetime
-    return data
-```
+<h3>1.  Data Loading: The project includes a 'data_processing.py' script that handles loading and preprocessing the financial data from a CSV file.</br>
+2. Data Visualization: The visualization script contains functions to create visualizations using Plotly Express. A line chart displays stock prices over time.</br>
+3. Web Application: The main application is built using Dash, which integrates the visualizations into a web interface. The application runs on a local server.</h3>
 
-<h3>2. Data Visualization:</h3>
-The visualization script contains functions to create visualizations using Plotly Express. A line chart displays stock prices over time.
-```py
-import plotly.express as px
-
-def create_dash_figures(data):
-    stock_prices_fig = px.line(data, x='date', y='close', title='Stock Prices Over Time')
-    numeric_data = data.select_dtypes(include=['float64', 'int64'])  # Select numeric columns
-    heatmap_fig = px.imshow(numeric_data.corr(), text_auto=True, color_continuous_scale='RdBu_r', title='Correlation Heatmap')
-    return stock_prices_fig, heatmap_fig
-```
-
-<h3>3. Web Application:</h3>
-The main application is built using Dash, which integrates the visualizations into a web interface. The application runs on a local server.
 
 <h2>Technologies Used:</h2>
 1. Python: For data processing and backend logic.</br>
