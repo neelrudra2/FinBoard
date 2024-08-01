@@ -23,7 +23,7 @@ def load_data(filepath):
     data = pd.read_csv(filepath)
     data['date'] = pd.to_datetime(data['date'])  # Convert date column to datetime
     return data
-```
+```python
 
 <h3>2. Data Visualization:</h3>
 The visualization script contains functions to create visualizations using Plotly Express. A line chart displays stock prices over time.
