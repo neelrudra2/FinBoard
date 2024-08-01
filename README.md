@@ -9,16 +9,15 @@ The Financial Data Analysis Dashboard is a web application designed to visualize
 3. Correlation Heatmap: Provides a heatmap of the correlation between different financial metrics.</br>
 4. Interactive Interface: Users can interact with the visualizations, zoom in/out, and hover over data points for detailed information.
 
-<h2>Importance and Use Cases</h2>
-* Market Analysis: Helps investors and analysts track stock performance and market trends.</br>
-* Decision Making: Provides critical insights that aid in making informed investment decisions.</br>
-* Educational Tool: Useful for students and educators in finance to understand data visualization and financial analysis.
-
 <h2>How it works</h2>
 1.  Data Loading: The project includes a 'data_processing.py' script that handles loading and preprocessing the financial data from a CSV file.</br>
 2. Data Visualization: The visualization script contains functions to create visualizations using Plotly Express. A line chart displays stock prices over time.</br>
 3. Web Application: The main application is built using Dash, which integrates the visualizations into a web interface. The application runs on a local server.
 
+<h2>Importance and Use Cases</h2>
+1. Market Analysis: Helps investors and analysts track stock performance and market trends.</br>
+2. Decision Making: Provides critical insights that aid in making informed investment decisions.</br>
+3. Educational Tool: Useful for students and educators in finance to understand data visualization and financial analysis.
 
 <h2>Technologies Used:</h2>
 1. Python: For data processing and backend logic.</br>
