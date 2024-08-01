@@ -17,17 +17,17 @@ The Financial Data Analysis Dashboard is a web application designed to visualize
 <h2>How it works</h2>
 <h3>1.  Data Loading:</h3>
 The project includes a 'data_processing.py' script that handles loading and preprocessing the financial data from a CSV file.
-```python
+```py
 import pandas as pd
 def load_data(filepath):
     data = pd.read_csv(filepath)
     data['date'] = pd.to_datetime(data['date'])  # Convert date column to datetime
     return data
-```python
+```
 
 <h3>2. Data Visualization:</h3>
 The visualization script contains functions to create visualizations using Plotly Express. A line chart displays stock prices over time.
-```python
+```py
 import plotly.express as px
 
 def create_dash_figures(data):
