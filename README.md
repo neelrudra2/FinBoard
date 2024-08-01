@@ -16,7 +16,7 @@ The Financial Data Analysis Dashboard is a web application designed to visualize
 
 <h2>How it works</h2>
 <h3>1.  Data Loading:</h3>
-The project includes a 'data_processing.py' script that handles loading and preprocessing the financial data from a CSV file.
+The project includes a 'data_processing.py' script that handles loading and preprocessing the financial data from a CSV file.</br>
 ```py
 import pandas as pd
 def load_data(filepath):
