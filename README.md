@@ -15,9 +15,9 @@ The Financial Data Analysis Dashboard is a web application designed to visualize
 * Educational Tool: Useful for students and educators in finance to understand data visualization and financial analysis.
 
 <h2>How it works</h2>
-<h3>1.  Data Loading: The project includes a 'data_processing.py' script that handles loading and preprocessing the financial data from a CSV file.</br>
+1.  Data Loading: The project includes a 'data_processing.py' script that handles loading and preprocessing the financial data from a CSV file.</br>
 2. Data Visualization: The visualization script contains functions to create visualizations using Plotly Express. A line chart displays stock prices over time.</br>
-3. Web Application: The main application is built using Dash, which integrates the visualizations into a web interface. The application runs on a local server.</h3>
+3. Web Application: The main application is built using Dash, which integrates the visualizations into a web interface. The application runs on a local server.
 
 
 <h2>Technologies Used:</h2>
