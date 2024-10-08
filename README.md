@@ -3,8 +3,6 @@
 <h2>Overview</h2>
 The Financial Data Analysis Dashboard is a web application designed to visualize and analyze financial data. It displays key metrics such as stock prices, trading volumes, and market indices, providing users with insightful visualizations to track and understand market trends.
 
-## <a href="https://www.linkedin.com/in/rudraneelbhattacharyya9/" target="_blank" rel="nofollow">My name</a>
-
 <h2>Features</h2>
 1. Stock Price Visualization: Displays stock prices over time using line charts.<br>
 2. Trading Volume Analysis: Visualizes trading volumes to understand market activity.</br>
